@@ -1,6 +1,6 @@
 # Aplicación - Bitcoin
 
-__Esta es una aplicación web básica que muestra el valor del bitcoin en USD a tiempo real.__
+Esta es una aplicación web básica que muestra el valor del bitcoin en USD a tiempo real.
 
 ## ¿Qué herramientas y lengueajes usé?
 * HTML y CSS - Estructura y diseño
