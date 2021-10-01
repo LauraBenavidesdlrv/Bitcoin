@@ -7,6 +7,7 @@ Esta es una aplicación web básica que muestra el valor del bitcoin en USD a ti
 * JavaScript - Interacción
 * [Visual Studio Code](https://code.visualstudio.com/) - Editor de texto
 * [Vue.js](https://vuejs.org/) - Framework
+* [coindesk](https://old.coindesk.com/coindesk-api)- API
 
 
 
