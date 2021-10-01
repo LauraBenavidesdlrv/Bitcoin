@@ -1,0 +1,237 @@
+*{ 
+    /*Estilos generales*/
+    margin:5px 8px;
+    padding: 10px;
+    box-sizing: border-box;/*para que las cajas no se desborden unas con otras*/
+    background-color: #082032;
+    
+}
+
+
+h2{
+    background: none;
+    color: w;
+    font-size: 165%;
+    padding: 1px;
+}
+
+h3{
+    background: none;
+    padding: 1px;
+}
+
+
+.papi{
+    display: flex;
+    flex-flow: column;
+}
+    .header{
+        background-color: #082032;
+        display: flex;
+        flex-flow: column;
+        margin: 1px;
+
+    }
+        .menu{
+            background-color: #082032;
+            display: flex;
+            flex-flow: row nowrap;
+            height: 50px;
+            align-items: center;
+            position: relative;
+            bottom: 30px;
+        }
+            .logo{
+                background-color: #082032;
+                flex:1 1 auto;
+                width: 100px;
+                float: left;
+                color: white;
+                position: relative;
+                bottom: 2px;
+                right:23px ;
+                font-size: 30px;
+            }
+
+            .nav{
+                background-color: #082032;
+                flex:1 1 auto;
+                height: 50px;
+                flex-flow: column;
+            }
+                .bi.bi-list {
+                    background-color: #082032;
+                    color: white;
+                    position: relative;
+                    right: 20px;
+                    font-size: 30px;
+                }
+
+                .bi.bi-search {
+                    background-color: #082032;
+                    color: white;
+                    position: relative;
+                    font-size: 20px;
+                }
+            .buscar{
+                background-color: #082032;
+                position: relative;
+                bottom: 3px;    
+            }
+
+                
+        .texto-principal{
+            background-image:url(/Img/farm-2852025_1920.jpg) ;
+            background-size: 150%;
+            background-repeat: no-repeat;
+            color: white;  
+            height: 500px;
+            animation: texto-principal 10s infinite;
+        }
+
+            h1{
+                background: none;
+                font-size: 400%;
+                font-family: 'Roboto', sans-serif;
+                text-align: center;
+                position: relative;
+                top: 150px;
+            }
+
+
+    #app{
+        background-color:#FF4C29;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 200px;
+
+    }
+     
+        .centrado{
+            flex: 0 1 100%;
+            text-align: center;
+            color: white;
+            position: relative;
+            bottom: 5px;
+
+        }
+    
+        .precio{
+            background-color:#FF4C29;
+            color:white;
+            text-align: center;
+            flex:1 1 40%;  
+            border: white 3px solid;
+            padding: 3px;
+            
+
+        }
+
+
+        .tiempo{
+            background-color:#FF4C29;
+            color:white;
+            text-align: center;
+            flex:1 1 40%;
+            border: white 3px solid;
+            padding: 3px;
+
+        }
+    .section{
+        background-color: #082032;
+        display: flex;
+    }
+        .articulos{
+            background-color: #082032;
+            flex: 2 1 40%;
+            display: flex;
+            flex-flow: row wrap ;
+            height: 700px;
+            align-items: center;
+        }
+            .article{
+                background-color: #FF4C29;
+                flex: 1 1 40%;
+                height: 250px;
+            }
+
+                .lupa{
+                    background-image: url(/Img/audit-4576720_1920.jpg);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                }
+
+                .article img{
+                    width:300px;
+                    height:00px;
+                }
+
+                a{
+                    background-color: #FF4C29;
+                }
+
+                .article p{
+                    background-color: #FF4C29;
+                    font-weight: bolder;
+                    text-align: justify;
+                    padding: 5px;
+                    margin: 0%;
+                    position: relative;
+                    top:150px;
+                    color: white;
+                    font-family: 'Roboto', sans-serif;
+                }
+            .navegacion{
+                background-color: #FF4C29;
+                flex: 1 1 100%;
+                height:40px ;
+                text-align: center;   
+            }
+                .navegacion a{
+                    color: white;
+                    text-decoration: none;
+                }
+
+
+        .aside{
+            background-color: #082032;
+            flex: 1 1 auto;
+            padding: px;
+
+
+        }
+            .publicidad{
+                 background-image: url(/Img/bitcoin-2007769_1920.jpg);
+                 background-size: contain;
+                 background-repeat: no-repeat;
+                 background-position: center;
+                 height: 200px;
+                 background-size: cover;
+   
+            }
+
+
+    .footer{
+        display: flex;
+        justify-content: center;
+    }
+        .iconos{
+                background-color: #082032;
+                color: white;
+                position: relative;
+                right: 20px;
+                font-size: 30px;
+        }
+
+@media all and (max-width:800px){
+    .section{
+        flex-direction: column; 
+    } 
+}
+
+@media all and (max-width:600px){
+    .aticulos{
+        flex-direction: column; 
+    } 
+}
