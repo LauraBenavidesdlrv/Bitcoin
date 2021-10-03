@@ -2,7 +2,7 @@
 
 Esta es una aplicación web básica que muestra el valor del bitcoin en USD a tiempo real.
 
-## ¿Qué herramientas y lengueajes usé?
+## Desarrollado con 🛠️:
 * HTML y CSS - Estructura y diseño
 * JavaScript - Interacción
 * [Visual Studio Code](https://code.visualstudio.com/) - Editor de texto
