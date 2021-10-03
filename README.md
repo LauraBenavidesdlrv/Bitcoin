@@ -1,4 +1,4 @@
-# Aplicación - Bitcoin
+# Aplicación - Bitcoin :moneybag:
 
 Esta es una aplicación web básica que muestra el valor del bitcoin en USD a tiempo real.
 
